@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /vacation-calculator
+
+spring:
+  application:
+    name: vacation-calculator
+
+logging:
+  level:
+    com.neoflex.vacationcalculator: INFO
+    org.springframework.web: INFO
